@@ -1,0 +1,22 @@
+{
+  "name": "line-kit",
+  "version": "0.0.1",
+  "description": "Process each line on a stream.",
+  "main": "index.js",
+  "repository": "https://github.com/uppet/line-kit",
+  "author": "Joyer Huang",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc index.ts",
+    "tik": "tsc index.ts && node index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "npx": "^10.2.0",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {}
+}
